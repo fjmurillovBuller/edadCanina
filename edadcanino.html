@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de mi perro</title>
+</head>
+<body>
+    <hr>
+    <h1>Edad Canina</h1>
+    <p>esta es la edad su Perrito</p>
+    <hr>
+    <script type="text/javascript">
+        function mascota(edad_humana){
+            var calcular = edad_humana * 7;
+            var mensaje_resul = "su mascota tiene"+ calcular + "anos de edad canina";
+
+            return mensaje_resul;
+        }
+
+        var edad_humana = prompt("Digite la edad de la mascota: ", "" );
+        var resultado = mascota(edad_humana);
+        alert(resultado);
+
+    </script>
+    <footer> WebMaster:fjmurilloV </footer>
+</body>
+</html>
